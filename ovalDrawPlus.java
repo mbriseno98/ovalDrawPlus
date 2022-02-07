@@ -1,15 +1,12 @@
-package drawing;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import java.awt.Graphics;
 import java.awt.Container; 
 import java.awt.Color;
 import javax.swing.JLabel;
-import java.awt.event.WindowAdapter;
-import java.awt.event.WindowEvent;
-import java.awt.event.WindowListener;
 
-public class ovalDrawPlus extends JPanel {
+
+public class OvalDrawPLus extends JPanel {
 	
 	
 	public void paintComponent(Graphics g) {
@@ -30,7 +27,6 @@ public class ovalDrawPlus extends JPanel {
 	/*public void paintComponent(Graphics g){
 		 super.paintComponent(g);
 		 this.setBackground(Color.BLACK);
-
 		 g.setColor(Color.BLUE);
 		 g.fillRect(75, 10, 350, 340);
 		 
@@ -44,9 +40,9 @@ public class ovalDrawPlus extends JPanel {
 		//JLabel label = new JLabel("Hello JLabel Centered",JLabel.CENTER); 
 		f.setLocation(250, 150);
 
-		f.add(label);
+	//	f.add(label);
 		f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		ovalDrawPlus p = new ovalDrawPlus();
+		OvalDrawPLus p = new OvalDrawPLus();
 		f.add(p);
 		f.setSize(400,500);
 		f.setVisible(true);
