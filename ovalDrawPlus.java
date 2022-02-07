@@ -6,7 +6,7 @@ import java.awt.Color;
 import javax.swing.JLabel;
 
 
-public class OvalDrawPLus extends JPanel {
+public class OvalDrawPlus extends JPanel {
 	
 	
 	public void paintComponent(Graphics g) {
